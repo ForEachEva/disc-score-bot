@@ -4,6 +4,7 @@ from discord_utils.embed_validation import validate_embed
 
 class Scorecard:
     def __init__(self, coursename, layoutname, date_time, par):
+        self.division = ""
         self.coursename = coursename
         self.course_url = ""
         self.layoutname = layoutname
