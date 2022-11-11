@@ -4,6 +4,7 @@ from .statistics import Statistics
 
 class Scorecards:
     def __init__(self):
+        self.Division = ""
         self.scorecards = []
         self.players = []
         self.statistics = Statistics()
